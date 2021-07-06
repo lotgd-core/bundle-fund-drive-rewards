@@ -29,8 +29,8 @@ class HealingListener
     public function __construct(Calculate $fundDrive, TranslatorInterface $translator, FlashBagInterface $flash)
     {
         $this->translator = $translator;
-        $this->fundDrive = $fundDrive;
-        $this->flash = $flash;
+        $this->fundDrive  = $fundDrive;
+        $this->flash      = $flash;
     }
 
     public function onMultiply(GenericEvent $event): void
@@ -43,9 +43,9 @@ class HealingListener
 
         $params = [
             'translation_domain' => $translationDomain,
-            'start_percent'  => $this->startPercent,
-            'block_percent'  => $this->blockPercent,
-            'max_allowed'  => $this->maxAllowed,
+            'start_percent'      => $this->startPercent,
+            'block_percent'      => $this->blockPercent,
+            'max_allowed'        => $this->maxAllowed,
         ];
 
         $this->flash->add('info', $this->translator->trans('flash.message.heal.info', $params, $translationDomain));
@@ -56,7 +56,7 @@ class HealingListener
             return;
         }
 
-        $blocks = (int) floor(($percent - 100) / $this->blockPercent);
+        $blocks   = (int) floor(($percent - 100) / $this->blockPercent);
         $discount = min($blocks, $this->maxAllowed);
 
         $params['discount'] = $discount;
