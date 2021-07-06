@@ -1,0 +1,12 @@
+{% trans_default_domain translation_domain %}
+
+<div class="center aligned green text">***</div>
+<div class="center aligned">
+    {{ 'section.newday.paragraph'|trans({
+        start_percent,
+        block_percent,
+        max_allowed,
+        added_fights
+    })|colorize }}
+</div>
+<div class="center aligned green text">***</div>
