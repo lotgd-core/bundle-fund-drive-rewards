@@ -1,14 +1,14 @@
 {
-    "name": "lotgd-core/bundle-fund-drive-rewards",
+    "name": "lotgd-core/fund-drive-rewards-bundle",
     "description": "Give rewards to players based on Fund Drive Goal in your LoTGD server.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "type": "lotgd-bundle",
     "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Iván Diaz Marinas (IDMarinas)",
             "email": "35842929+idmarinas@users.noreply.github.com",
-            "homepage": "https://github.com/lotgd-core/bundle-fund-drive-rewards",
+            "homepage": "https://github.com/lotgd-core/fund-drive-rewards-bundle",
             "role": "Developer"
         },
         {
@@ -25,7 +25,7 @@
         "sort-packages": true
     },
     "support": {
-        "issues": "https://github.com/lotgd-core/bundle-fund-drive-rewards/issues"
+        "issues": "https://github.com/lotgd-core/fund-drive-rewards-bundle/issues"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
