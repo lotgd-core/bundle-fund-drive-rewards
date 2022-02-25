@@ -1,7 +1,6 @@
 {
     "name": "lotgd-core/fund-drive-rewards-bundle",
     "description": "Give rewards to players based on Fund Drive Goal in your LoTGD server.",
-    "version": "0.1.1",
     "type": "lotgd-bundle",
     "license": "BSD-3-Clause",
     "authors": [
