@@ -4,7 +4,7 @@ Give rewards to players based on Fund Drive Goal in your LoTGD server.
 
 # Install
 ```bash
-composer require lotgd-core/bundle-fund-drive-rewards
+composer require lotgd-core/fund-drive-rewards-bundle
 ```
 
 # Default config
