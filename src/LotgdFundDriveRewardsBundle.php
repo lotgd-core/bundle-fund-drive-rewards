@@ -26,7 +26,7 @@ class LotgdFundDriveRewardsBundle extends Bundle implements LotgdBundleInterface
      */
     public function getLotgdVersion(): string
     {
-        return '0.1.1';
+        return '0.1.3';
     }
 
     /**
